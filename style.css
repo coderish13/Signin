@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(nights.jpg);
+    background-size: cover;
+}
+.container{
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid crimson;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    background: #3C86CF;
+background: -webkit-linear-gradient(to right, #3C86CF 39%, #CF1512 100%);
+background: -moz-linear-gradient(to right, #3C86CF 39%, #CF1512 100%);
+background: linear-gradient(to right, #3C86CF 39%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid crimson;
+    margin: 22px 0px;
+}
+.box input{
+    background: none;
+    width: 75%;
+    margin: 12px 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #2a88e0 5%, #a8c2db 100%);
+	background-color:#2a88e0;
+	border-radius:24px;
+	border:1px solid #105ca8;
+	display:inline-block;
+	cursor:pointer;
+	color:#f5dcdc;
+	font-family:Georgia;
+	font-size:17px;
+	font-weight:bold;
+	font-style:italic;
+	padding:11px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #214e7a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #a8c2db 5%, #2a88e0 100%);
+	background-color:#a8c2db;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
